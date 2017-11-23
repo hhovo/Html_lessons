@@ -1,0 +1,30 @@
+.top_left_table_data_style {
+    padding-right: 20px;
+
+    font-family: HelveticaNeue, Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.top_left_table_links_style {
+
+    color: #1378bf;
+    text-decoration: none;
+    padding-top: 5px;
+    padding-right: 6px;
+    padding-bottom: 7px;
+    padding-left: 6px;
+}
+
+.left_align {
+
+    text-align: left;
+
+}
+
+.right_align {
+
+    text-align: right;
+}
