@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Ֆորմաներ</title>
+    </head>
+    <body>
+        <form action="data.php" method="post">
+
+            <fieldset>
+            <legend>Անձնական տվյալներ</legend>
+            <p><input type="text" placeholder="Անուն" name="name"></p>
+            <p><input type="password" placeholder="Գաղտնաբառ" name="pass"></p>
+            </fieldset>
+
+            <fieldset>
+            <legend>Հարցեր</legend>
+            <p>Արդյո՞ք թանկ է ժամանակը Ձեզ համար</p>
+            <p>
+                <label><input type="radio" name="time" value="yes"> Այո</label>
+                <label><input type="radio" name="time" value="no"> Ոչ</label>
+            </p>
+
+            <p>Ի՞նչ գործիքներ եք օգտագործում ժամանակը խնայելու համար</p>
+            <p>
+                <label><input type="checkbox" name="alarm"> Զարթուցիչ</label>
+                <label><input type="checkbox" name="timer"> Ժամանակաչափ</label>
+                <label><input type="checkbox" name="main"> Իմ մեթոդները</label>
+            </p>
+
+            <p>Քանի՞ ժամ եք աշխատում օրվա մեջ</p>
+            <p>
+                <select name="worktime">
+                    <option>4</option>
+                    <option>8</option>
+                    <option>12</option>
+                    <option>12+</option>
+                </select>
+            </p>
+            </fieldset>
+
+            <p><label for="text">Կիսվեք Ձեր մեթոդների մասին ժամանակը խնայելու վերաբերյալ</label></p>
+            <p><textarea name="message" cols="50" rows="10" id="text"></textarea></p>
+            <p>
+                <input type="reset" value="Մաքրել">
+                <input type="submit" value="Ուղարկել" name="button">
+            </p>
+            <p><input type="image" src="images/button.png" name="imgbutton"></p>
+        </form>
+    </body>
+</html>
