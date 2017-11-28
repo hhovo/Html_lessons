@@ -1,4 +1,4 @@
-.top_left_table_data_style {
+.top_menu_style {
     padding-right: 20px;
 
     font-family: HelveticaNeue, Arial, sans-serif;
@@ -8,6 +8,7 @@
     line-height: 16px;
 }
 
+
 .top_left_table_links_style {
 
     color: #1378bf;
@@ -16,15 +17,4 @@
     padding-right: 6px;
     padding-bottom: 7px;
     padding-left: 6px;
-}
-
-.left_align {
-
-    text-align: left;
-
-}
-
-.right_align {
-
-    text-align: right;
 }
