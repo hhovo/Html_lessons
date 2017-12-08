@@ -1,0 +1,56 @@
+a:link {
+
+    color: red;
+
+}
+
+a:hover {
+
+    color: chartreuse;
+}
+
+a:active {
+
+    color: coral;
+
+}
+
+a:visited {
+
+    color: darkmagenta;
+
+}
+
+p {
+
+    font-family: Tahoma, Verdana, sans-serif;
+
+}
+
+.name2 {
+
+    font-style: italic;
+    font-variant:
+/*    font-weight: 800;*/
+
+}
+
+.name3 {
+
+    text-transform: capitalize;
+
+}
+
+a {
+
+    text-decoration: none;
+
+}
+
+#top {
+
+    color: darkolivegreen;
+    border: 2px solid blue;
+    border-radius: 12px;
+
+}
